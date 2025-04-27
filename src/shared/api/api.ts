@@ -28,7 +28,7 @@ const getTelegramId = async (): Promise<number | null> => {
 };
 
 const baseQuery = fetchBaseQuery({
-  baseUrl: process.env.NEXT_PUBLIC_BASE_API_URL || "https://cryptoswaptg.ru/v1",
+  baseUrl: process.env.NEXT_PUBLIC_BASE_API_URL || "https://cryptoswapservertelegramm.fun",
   credentials: 'include',
   prepareHeaders: async (headers) => {
     headers.set('Content-Type', 'application/json');
